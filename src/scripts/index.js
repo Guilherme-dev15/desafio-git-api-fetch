@@ -2,6 +2,8 @@ import { getUser } from "./services/user.js"
 import { user } from "./objects/user.js"
 import { screen } from "./objects/screen.js"
 import { getRepositories } from "./services/repositories.js"
+import { getEvents } from "./services/events.js"
+
 
 const btn = document.getElementById("btn-search")
 
@@ -42,11 +44,12 @@ async function getUserData(userName) {
         return
     }
 
-    const repositoriesresponse = await getRepositories(userName)
+    const repositoriesResponse = await getRepositories(userName)
+    const userEvent = await getEvents(userName)
 
     user.setInfo(userResponse)
-    user.setRepositories(repositoriesresponse)
-
+    user.setRepositories(repositoriesResponse)
+    user.setEvents(userEvent)
 
     screen.renderUser(user)
 
