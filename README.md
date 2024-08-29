@@ -1,4 +1,4 @@
-# GitHub User Information Project
+# GitHub API
 
 ## 📖 Sobre o Projeto
 Este projeto foi desenvolvido como desafio do curso DEVQUEST, o objetivo da aplicação é buscar e exibir informações detalhadas de usuários do GitHub, incluindo perfil, repositórios e eventos recentes. A aplicação consome a API do GitHub para coletar esses dados e apresentá-los de forma clara e organizada.
