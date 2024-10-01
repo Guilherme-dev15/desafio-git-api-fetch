@@ -25,3 +25,6 @@ Durante o desenvolvimento deste projeto, aprofundei meus conhecimentos em:
 - **Manipulação do DOM:** Melhorei minha habilidade em manipular o DOM de forma dinâmica, criando uma experiência de usuário fluida e responsiva.
 - **Gerenciamento de Estado:** Desenvolvi técnicas para gerenciar o estado da aplicação, garantindo que os dados sejam atualizados e exibidos corretamente.
 
+- [Acessa o Projeto aqui](https://guilherme-dev15.github.io/desafio-git-api-fetch/)
+
+
